@@ -1,0 +1,151 @@
+/* =========================================
+   CONFIGURAÇÃO GERAL DA PÁGINA
+   ========================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   CABEÇALHO
+   ========================================= */
+
+header {
+    text-align: center;
+    background-color: #172554;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   MENU DE NAVEGAÇÃO
+   ========================================= */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   ÁREA PRINCIPAL
+   ========================================= */
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+/* =========================================
+   CADA LIVRO
+   ========================================= */
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/* Título do livro */
+
+section h2 {
+    color: #172554;
+}
+
+
+/* =========================================
+   IMAGENS DOS LIVROS
+   ========================================= */
+
+section img {
+    display: block;
+
+    /* Reduz o tamanho máximo da imagem */
+    max-width: 250px;
+
+    /* Impede que a imagem fique maior que o espaço */
+    width: 100%;
+    height: auto;
+
+    /* Centraliza a imagem */
+    margin: 15px auto;
+}
+
+
+/* =========================================
+   CRÉDITOS DAS IMAGENS
+   ========================================= */
+
+.creditos {
+    display: block;
+
+    /* Centraliza o texto do crédito */
+    text-align: center;
+
+    /* Espaço entre a imagem e o crédito */
+    margin-top: 5px;
+
+    /* Tamanho menor para o crédito */
+    font-size: 13px;
+
+    /* Cor mais discreta */
+    color: #666;
+}
+
+
+/* Link do crédito */
+
+.creditos a {
+    color: #2563eb;
+}
+
+
+/* =========================================
+   TEXTO DOS LIVROS
+   ========================================= */
+
+section p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+
+/* =========================================
+   RODAPÉ
+   ========================================= */
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #bfdbfe;
+}
